@@ -1,5 +1,6 @@
 const findTheOldest = function(objarray) {
-    let oldestAge = 0, oldestPos = 0;
+    let oldestAge = 0;
+    let oldestPos = 0;
     for (let i = 0; i < objarray.length; i++) {
         let age = 0;
         if (objarray[i]['yearOfDeath'] == undefined) {
